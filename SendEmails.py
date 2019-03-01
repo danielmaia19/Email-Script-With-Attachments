@@ -15,7 +15,7 @@ msg['Subject'] = 'subject'
 body = 'Hi there, sending this email from Python!'
 msg.attach(MIMEText(body, 'plain'))
 
-filename = 'emails_recipients.txt'
+filename = 'PATH_TO_FILE'
 attachment = open(filename, 'rb')
 
 part = MIMEBase('application', 'octet-stream')
